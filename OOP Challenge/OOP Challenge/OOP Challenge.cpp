@@ -5,53 +5,58 @@ using namespace std;
 
 class Shape {
 public:
-	string color;
-	void getArea();
-	
+    string color;
+    virtual void getArea() = 0;
 };
 
+class Rectangle : public Shape {
+public:
+    int Height;
+    int Width;
 
-int main()
-{
-	class Rectangle : public Shape
-	{
-	public:
-		int Height;
-		int Width;
+    void getArea() override {
+        int Area = Height * Width;
+        cout << Area;
+    }
+};
 
+class Triangle : public Shape {
+public:
+    int Height;
+    int Base;
 
-		void getArea()
-		{
-			int Area = Height * Width;
-			cout << Area;
-			return;
-		}
-	};
+    void getArea() override {
+        int Area = (Height * Base) / 2;
+        cout << Area;
+    }
+};
 
-	class Triangle : public Shape
-	{
-	public:
-		int Height;
-		int Base;
+class Circle : public Shape {
+public:
+    int Radius;
 
-		void getArea()
-		{
-			int Area = Height * Base;
-			cout << Area;
-		}
-	};
+    void getArea() override {
+        double Area = 3.14 * pow(Radius, 2);
+        cout << Area;
+    }
+};
 
-	class Circle : public Shape
-	{
-	public:
-		int Radius;
+int main() {
+    Rectangle rectangle;
+    rectangle.Height = 5;
+    rectangle.Width = 10;
+    rectangle.getArea();
 
-		void getArea()
-		{
-			int Area = Radius * Radius * 3.14;
-			cout << Area;
-		}
-	};
+    Triangle triangle;
+    triangle.Height = 4;
+    triangle.Base = 6;
+    triangle.getArea();
+
+    Circle circle;
+    circle.Radius = 3;
+    circle.getArea();
+
+    return 0;
+}
 
 	
-}
