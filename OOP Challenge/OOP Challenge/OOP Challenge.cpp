@@ -1,35 +1,57 @@
 #include <string>
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 class Shape {
 public:
 	string color;
-	int getArea(int area);
+	void getArea();
 	
 };
 
-int Shape::getArea(int area)
+
+int main()
 {
-	cout << area;
+	class Rectangle : public Shape
+	{
+	public:
+		int Height;
+		int Width;
+
+
+		void getArea()
+		{
+			int Area = Height * Width;
+			cout << Area;
+			return;
+		}
+	};
+
+	class Triangle : public Shape
+	{
+	public:
+		int Height;
+		int Base;
+
+		void getArea()
+		{
+			int Area = Height * Base;
+			cout << Area;
+		}
+	};
+
+	class Circle : public Shape
+	{
+	public:
+		int Radius;
+
+		void getArea()
+		{
+			int Area = Radius * Radius * 3.14;
+			cout << Area;
+		}
+	};
+
+	
 }
-
-class Rectangle : public Shape
-{
-public:
-	int Height;
-	int Width;
-};
-
-class Triangle : public Shape
-{
-public:
-	int Height;
-	int Base;
-};
-
-class Circle : public Shape
-{
-public:
-	int Radius;
-};
