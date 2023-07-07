@@ -16,7 +16,7 @@ public:
 
     void getArea() override {
         int Area = Height * Width;
-        cout << Area;
+        cout << Area << "\n";
     }
 };
 
@@ -27,7 +27,7 @@ public:
 
     void getArea() override {
         int Area = (Height * Base) / 2;
-        cout << Area;
+        cout << Area << "\n";
     }
 };
 
@@ -37,7 +37,7 @@ public:
 
     void getArea() override {
         double Area = 3.14 * pow(Radius, 2);
-        cout << Area;
+        cout << Area << "\n";
     }
 };
 
