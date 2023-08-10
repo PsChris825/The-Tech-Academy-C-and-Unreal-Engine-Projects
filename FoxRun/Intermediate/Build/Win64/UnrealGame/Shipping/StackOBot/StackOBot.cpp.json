@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\ue fp\\ue5\\stackobot\\intermediate\\source\\stackobot.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\ue fp\\ue5\\stackobot\\intermediate\\build\\win64\\stackobot\\shipping\\core\\sharedpch.core.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\ue fp\\ue5\\stackobot\\intermediate\\build\\win64\\unrealgame\\shipping\\stackobot\\definitions.stackobot.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
