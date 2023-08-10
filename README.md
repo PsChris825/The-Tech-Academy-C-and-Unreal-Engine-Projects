@@ -6,8 +6,6 @@ Tech Academy Unreal Engine Project
 
 <h4>&bull;<a href=https://github.com/PsChris825/The-Tech-Academy-LiveProject-FoxRun/tree/main/FoxRun>Fox Run</a></h4>
 
-
-<h2>Fox Run</h2>
 <p>This project was completed during the Tech Academy two-week Live Project</p>
 
 
