@@ -7,6 +7,25 @@
 
   I will include snippets of blueprints I created to create various game mechanics as well as outlines for my game design 
 
+# Unreal Engine Blueprints
+  Each game mechanic, and character movement is brought to life with Unreal Engine's Blueprints which is a scripting system that creates gameplay elements.
 
+# Skills Aquired
+- Working with Unreal Engine blueprints
+- Game Design
+- Using Azure DevOps to handle version control for the game
+- Creating Win/Lose Mechanics including environmental hazards
+- Creating a multi-level game with cohesive maps
+- Debugging game and solving for problems
+- Utilizing Game Instances
+- Using Widgets to display menus and in game UI
+
+# Game Preview Blueprints
+
+ 
+
+
+  
+  
 
 
