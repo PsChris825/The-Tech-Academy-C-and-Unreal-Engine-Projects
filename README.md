@@ -49,10 +49,31 @@ Character Blueprint - contains movement mechanics as well as a respawn mechanic
 
 ![Alt text](https://github.com/PsChris825/The-Tech-Academy-LiveProject-FoxRun/blob/main/FoxRun/Screenshot%202023-08-22%20174419.png)
 
+I utilized a game instance to keep track of health, score, and in-game time. This is a snippet of how respawn works in the game.
 
+The player starts with base health and can regenerate more health by collecting cherries.
 
+![Alt text](https://github.com/PsChris825/The-Tech-Academy-LiveProject-FoxRun/blob/main/FoxRun/Screenshot%202023-08-22%20174441.png)
 
+If the player hits a hazard in the game they lose a certain amount of health and are respawned to the beginning of the level, but if the player runs out of health they are sent to the game over screen allowing them to restart the game or quit out. This mechanic was associated with a damaged box placed on environmental hazards.
 
+![Alt text](https://github.com/PsChris825/The-Tech-Academy-LiveProject-FoxRun/blob/main/FoxRun/Screenshot%202023-08-22%20174311.png)
+
+# Time
+
+I wanted to create a replayability aspect to the game so I included a time clock. This pushed the player to learn the mechanics of the movement, and each level perfectly in order to improve their time every run.
+
+![Alt text](https://github.com/PsChris825/The-Tech-Academy-LiveProject-FoxRun/blob/main/FoxRun/Screenshot%202023-08-22%20174542.png)
+
+# Widgets 
+
+I utilized widgets to create the main menu, win/loss menu, as well as the in-game UI that shows the player's health, gem score, and time. 
+
+![Alt text](https://github.com/PsChris825/The-Tech-Academy-LiveProject-FoxRun/blob/main/FoxRun/Screenshot%202023-08-22%20174953.png)
+
+![Alt text](https://github.com/PsChris825/The-Tech-Academy-LiveProject-FoxRun/blob/main/FoxRun/Screenshot%202023-08-22%20175006.png)
+
+![Alt text](https://github.com/PsChris825/The-Tech-Academy-LiveProject-FoxRun/blob/main/FoxRun/Screenshot%202023-08-22%20175149.png)
 
 
   
