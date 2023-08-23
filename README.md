@@ -8,21 +8,51 @@
   I will include snippets of blueprints I created to create various game mechanics as well as outlines for my game design 
 
 # Unreal Engine Blueprints
-  Each game mechanic, and character movement is brought to life with Unreal Engine's Blueprints which is a scripting system that creates gameplay elements.
+  Each game mechanic and character movement is brought to life with Unreal Engine's Blueprints which is a scripting system that creates gameplay elements.
 
-# Skills Aquired
+# Skills Acquired
 - Working with Unreal Engine blueprints
 - Game Design
 - Using Azure DevOps to handle version control for the game
 - Creating Win/Lose Mechanics including environmental hazards
 - Creating a multi-level game with cohesive maps
-- Debugging game and solving for problems
+- Debugging games and solving problems
 - Utilizing Game Instances
-- Using Widgets to display menus and in game UI
+- Using Widgets to display menus and in-game UI
 
-# Game Preview Blueprints
+# Game Levels Overviews
 
- 
+Created three levels for FoxRun with increasingly difficult platforming and hazards. I wanted the player to also feel like they were on an adventure from their house in the meadows to the dark forest leading into the cave where the source of the dangerous plant growth was coming from.
+
+To create my levels in Unreal using 2D assets I utilized the tile map tools to be able to freely design each level using tile sets made from the 2D assets.
+
+Level 1 - The Meadows
+
+![Alt text](https://github.com/PsChris825/The-Tech-Academy-LiveProject-FoxRun/blob/main/FoxRun/Screenshot%202023-08-22%20174646.png)
+
+Level 2 - The Dark Forest/ Cave Entrance
+
+![Alt text](https://github.com/PsChris825/The-Tech-Academy-LiveProject-FoxRun/blob/main/FoxRun/Screenshot%202023-08-22%20174704.png)
+
+Level 3 - The Source of the Growth
+
+![Alt text](https://github.com/PsChris825/The-Tech-Academy-LiveProject-FoxRun/blob/main/FoxRun/Screenshot%202023-08-22%20174621.png)
+
+
+# The Player
+
+The player character was also made using 2D assets and animation was created by using the flipbook tool in Unreal Engine. This helped me create animations for running, jumping, and idle. The player also had a health and death/respawn mechanic associated with them.
+
+![Alt text](https://github.com/PsChris825/The-Tech-Academy-LiveProject-FoxRun/blob/main/FoxRun/Screenshot%202023-08-22%20174747.png)
+
+Character Blueprint - contains movement mechanics as well as a respawn mechanic
+
+![Alt text](https://github.com/PsChris825/The-Tech-Academy-LiveProject-FoxRun/blob/main/FoxRun/Screenshot%202023-08-22%20174419.png)
+
+
+
+
+
 
 
   
